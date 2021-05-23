@@ -1,0 +1,6 @@
+E:\Vehicle\Paging\obj\Debug\netstandard2.0\Paging.AssemblyInfoInputs.cache
+E:\Vehicle\Paging\obj\Debug\netstandard2.0\Paging.AssemblyInfo.cs
+E:\Vehicle\Paging\obj\Debug\netstandard2.0\Paging.csproj.CoreCompileInputs.cache
+E:\Vehicle\Paging\bin\Debug\netstandard2.0\Paging.deps.json
+E:\Vehicle\Paging\bin\Debug\netstandard2.0\Paging.dll
+E:\Vehicle\Paging\obj\Debug\netstandard2.0\Paging.csprojAssemblyReference.cache

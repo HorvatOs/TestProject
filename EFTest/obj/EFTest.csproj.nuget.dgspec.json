@@ -1,0 +1,409 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\CODE\\EFTest\\EFTest\\EFTest.csproj": {}
+  },
+  "projects": {
+    "F:\\CODE\\EFTest\\EFTest\\EFTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\CODE\\EFTest\\EFTest\\EFTest.csproj",
+        "projectName": "EFTest",
+        "projectPath": "F:\\CODE\\EFTest\\EFTest\\EFTest.csproj",
+        "packagesPath": "C:\\Users\\FearZone\\.nuget\\packages\\",
+        "outputPath": "F:\\CODE\\EFTest\\EFTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FearZone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\CODE\\EFTest\\Vehicle.DAL\\Vehicle.DAL.csproj": {
+                "projectPath": "F:\\CODE\\EFTest\\Vehicle.DAL\\Vehicle.DAL.csproj"
+              },
+              "F:\\CODE\\EFTest\\Vehicle.Model\\Vehicle.Model.csproj": {
+                "projectPath": "F:\\CODE\\EFTest\\Vehicle.Model\\Vehicle.Model.csproj"
+              },
+              "F:\\CODE\\EFTest\\Vehicle.Repository.Common\\Vehicle.Repository.Common.csproj": {
+                "projectPath": "F:\\CODE\\EFTest\\Vehicle.Repository.Common\\Vehicle.Repository.Common.csproj"
+              },
+              "F:\\CODE\\EFTest\\Vehicle.Repository\\Vehicle.Repository.csproj": {
+                "projectPath": "F:\\CODE\\EFTest\\Vehicle.Repository\\Vehicle.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "ReflectionIT.Mvc.Paging": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\CODE\\EFTest\\Vehicle.DAL\\Vehicle.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\CODE\\EFTest\\Vehicle.DAL\\Vehicle.DAL.csproj",
+        "projectName": "Vehicle.DAL",
+        "projectPath": "F:\\CODE\\EFTest\\Vehicle.DAL\\Vehicle.DAL.csproj",
+        "packagesPath": "C:\\Users\\FearZone\\.nuget\\packages\\",
+        "outputPath": "F:\\CODE\\EFTest\\Vehicle.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FearZone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\CODE\\EFTest\\Vehicle.Model\\Vehicle.Model.csproj": {
+                "projectPath": "F:\\CODE\\EFTest\\Vehicle.Model\\Vehicle.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "ReflectionIT.Mvc.Paging": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\CODE\\EFTest\\Vehicle.Model\\Vehicle.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\CODE\\EFTest\\Vehicle.Model\\Vehicle.Model.csproj",
+        "projectName": "Vehicle.Model",
+        "projectPath": "F:\\CODE\\EFTest\\Vehicle.Model\\Vehicle.Model.csproj",
+        "packagesPath": "C:\\Users\\FearZone\\.nuget\\packages\\",
+        "outputPath": "F:\\CODE\\EFTest\\Vehicle.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FearZone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "ReflectionIT.Mvc.Paging": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\CODE\\EFTest\\Vehicle.Repository.Common\\Vehicle.Repository.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\CODE\\EFTest\\Vehicle.Repository.Common\\Vehicle.Repository.Common.csproj",
+        "projectName": "Vehicle.Repository.Common",
+        "projectPath": "F:\\CODE\\EFTest\\Vehicle.Repository.Common\\Vehicle.Repository.Common.csproj",
+        "packagesPath": "C:\\Users\\FearZone\\.nuget\\packages\\",
+        "outputPath": "F:\\CODE\\EFTest\\Vehicle.Repository.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FearZone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\CODE\\EFTest\\Vehicle.DAL\\Vehicle.DAL.csproj": {
+                "projectPath": "F:\\CODE\\EFTest\\Vehicle.DAL\\Vehicle.DAL.csproj"
+              },
+              "F:\\CODE\\EFTest\\Vehicle.Model\\Vehicle.Model.csproj": {
+                "projectPath": "F:\\CODE\\EFTest\\Vehicle.Model\\Vehicle.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "ReflectionIT.Mvc.Paging": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\CODE\\EFTest\\Vehicle.Repository\\Vehicle.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\CODE\\EFTest\\Vehicle.Repository\\Vehicle.Repository.csproj",
+        "projectName": "Vehicle.Repository",
+        "projectPath": "F:\\CODE\\EFTest\\Vehicle.Repository\\Vehicle.Repository.csproj",
+        "packagesPath": "C:\\Users\\FearZone\\.nuget\\packages\\",
+        "outputPath": "F:\\CODE\\EFTest\\Vehicle.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FearZone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\CODE\\EFTest\\Vehicle.DAL\\Vehicle.DAL.csproj": {
+                "projectPath": "F:\\CODE\\EFTest\\Vehicle.DAL\\Vehicle.DAL.csproj"
+              },
+              "F:\\CODE\\EFTest\\Vehicle.Model\\Vehicle.Model.csproj": {
+                "projectPath": "F:\\CODE\\EFTest\\Vehicle.Model\\Vehicle.Model.csproj"
+              },
+              "F:\\CODE\\EFTest\\Vehicle.Repository.Common\\Vehicle.Repository.Common.csproj": {
+                "projectPath": "F:\\CODE\\EFTest\\Vehicle.Repository.Common\\Vehicle.Repository.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "ReflectionIT.Mvc.Paging": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Vehicle.Models.IndexModel>
+
+
+@{ ViewData["Title"] = "Index"; }
+
+<h1>Vehicle Models</h1>
+
+<p>
+    <a class="btn btn-outline-success" asp-action="Create" asp-route-makeId="@ViewBag.MakeId">Create New</a>
+</p>
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Abrv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MakeId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Abrv)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.MakeId)
+    </td>
+    <td>
+        <div align="center" class="float-right">
+            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-dark">Edit</a>
+            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-dark">Details</a>
+            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">Delete</a>
+        </div>
+    </td>
+</tr>
+}
+    </tbody>
+</table>
+<div><a class="btn btn-outline-primary" asp-area="" asp-controller="VehicleMake" asp-action="Index">Back</a></div>

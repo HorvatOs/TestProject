@@ -1,0 +1,40 @@
+﻿@model Vehicle.Models.EditMake
+
+@{ ViewData["Title"] = "Edit"; }
+
+<h4>Edit Make?</h4>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Abrv" class="control-label"></label>
+                <input asp-for="Abrv" class="form-control" />
+                <span asp-validation-for="Abrv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="form-group">
+                    <div align="center" class="float-left">
+                        <input type="submit" value="Save" class="btn btn-outline-success" />
+                    </div>
+                    <div align="center" class="float-right">
+                        <a class="btn btn-outline-primary" asp-action="Index">Back</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

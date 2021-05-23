@@ -1,0 +1,4 @@
+E:\Vehicle\Paging\obj\Debug\netstandard2.0\Vehicle Api.csprojAssemblyReference.cache
+E:\Vehicle\Paging\obj\Debug\netstandard2.0\Vehicle Api.AssemblyInfoInputs.cache
+E:\Vehicle\Paging\obj\Debug\netstandard2.0\Vehicle Api.AssemblyInfo.cs
+E:\Vehicle\Paging\obj\Debug\netstandard2.0\Vehicle Api.csproj.CoreCompileInputs.cache

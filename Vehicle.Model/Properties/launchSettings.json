@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Vehicle.Model": {
+      "commandName": "Project",
+      "workingDirectory": "E:\\Vehicle\\EFTest"
+    }
+  }
+}

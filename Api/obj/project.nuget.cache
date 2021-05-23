@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xQv4YOTVzmhBTwGBf/Qu3IEiQn2HpuUWN7TxEtg0hCzUv8wR/BL9bL2Y7zXLGXfVKZxLlf5sS1UEk3kUvWVZew==",
+  "success": true,
+  "projectFilePath": "E:\\Vehicle\\Api\\Paging.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FearZone\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\FearZone\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

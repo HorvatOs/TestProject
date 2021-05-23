@@ -1,0 +1,27 @@
+﻿@model Vehicle.Models.DetailsMake
+
+@{ ViewData["Title"] = "Details"; }
+
+<h4>Details</h4>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Abrv)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Abrv)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-outline-success" asp-action="Edit" asp-route-id="@Model.Id">Edit</a> 
+    <a class="btn btn-outline-primary" style="margin-left:130px" asp-action="Index">Back</a>
+</div>
